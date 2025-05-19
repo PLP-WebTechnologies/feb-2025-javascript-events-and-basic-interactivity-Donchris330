@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 1rem;
+}
+
+nav {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+#hoverBox, #secretArea {
+  padding: 1rem;
+  background-color: lightgray;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.tabs {
+  margin: 1rem 0;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  cursor: pointer;
+}
+
+.tab-content {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background: #fff;
+  margin-top: 1rem;
+}
+
+#formMessage {
+  color: red;
+  font-weight: bold;
+}
